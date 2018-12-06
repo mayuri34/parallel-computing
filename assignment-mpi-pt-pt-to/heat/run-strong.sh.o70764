@@ -1,0 +1,18 @@
+[mba-c4:140752] *** An error occurred in MPI_Isend
+[mba-c4:140752] *** reported by process [2146369537,5]
+[mba-c4:140752] *** on communicator MPI_COMM_WORLD
+[mba-c4:140752] *** MPI_ERR_RANK: invalid rank
+[mba-c4:140752] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[mba-c4:140752] ***    and potentially your MPI job)
+[mba-c3:18923] *** An error occurred in MPI_Isend
+[mba-c3:18923] *** reported by process [2144927745,0]
+[mba-c3:18923] *** on communicator MPI_COMM_WORLD
+[mba-c3:18923] *** MPI_ERR_RANK: invalid rank
+[mba-c3:18923] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[mba-c3:18923] ***    and potentially your MPI job)
+[mba-c3:18936] *** An error occurred in MPI_Isend
+[mba-c3:18936] *** reported by process [2143617025,1]
+[mba-c3:18936] *** on communicator MPI_COMM_WORLD
+[mba-c3:18936] *** MPI_ERR_RANK: invalid rank
+[mba-c3:18936] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[mba-c3:18936] ***    and potentially your MPI job)

@@ -1,0 +1,27 @@
+[mba-c6:168761] *** Process received signal ***
+[mba-c6:168761] Signal: Segmentation fault (11)
+[mba-c6:168761] Signal code: Invalid permissions (2)
+[mba-c6:168761] Failing at address: 0x7f96d5a4ca90
+[mba-c6:168761] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f96db381680]
+[mba-c6:168761] [ 1] ./mpi_matmul[0x408fae]
+[mba-c6:168761] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f96dafc73d5]
+[mba-c6:168761] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c6:168761] *** End of error message ***
+[mba-c6:168760] *** Process received signal ***
+[mba-c6:168760] Signal: Segmentation fault (11)
+[mba-c6:168760] Signal code: Invalid permissions (2)
+[mba-c6:168760] Failing at address: 0x7fd9c7b74a90
+[mba-c6:168760] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fd9ce221680]
+[mba-c6:168760] [ 1] ./mpi_matmul[0x408fae]
+[mba-c6:168760] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fd9cde673d5]
+[mba-c6:168760] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c6:168760] *** End of error message ***
+[mba-c6:168759] *** Process received signal ***
+[mba-c6:168759] Signal: Segmentation fault (11)
+[mba-c6:168759] Signal code: Invalid permissions (2)
+[mba-c6:168759] Failing at address: 0x7f2c4cff7510
+[mba-c6:168759] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f2c5350c680]
+[mba-c6:168759] [ 1] ./mpi_matmul[0x408fae]
+[mba-c6:168759] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f2c531523d5]
+[mba-c6:168759] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c6:168759] *** End of error message ***

@@ -1,0 +1,162 @@
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c4:145232] *** Process received signal ***
+[mba-c4:145232] Signal: Aborted (6)
+[mba-c4:145232] Signal code:  (-6)
+[mba-c4:145232] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fea79dfe680]
+[mba-c4:145232] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7fea79a58207]
+[mba-c4:145232] [ 2] /lib64/libc.so.6(abort+0x148)[0x7fea79a598f8]
+[mba-c4:145232] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7fea7a5837d5]
+[mba-c4:145232] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7fea7a581746]
+[mba-c4:145232] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7fea7a581773]
+[mba-c4:145232] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7fea7a581993]
+[mba-c4:145232] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7fea7a581f2d]
+[mba-c4:145232] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7fea7a581fc9]
+[mba-c4:145232] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c4:145232] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fea79a443d5]
+[mba-c4:145232] [11] ./mpi_matmul[0x4088f9]
+[mba-c4:145232] *** End of error message ***
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c4:145233] *** Process received signal ***
+[mba-c4:145233] Signal: Aborted (6)
+[mba-c4:145233] Signal code:  (-6)
+[mba-c4:145233] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f71b86fb680]
+[mba-c4:145233] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7f71b8355207]
+[mba-c4:145233] [ 2] /lib64/libc.so.6(abort+0x148)[0x7f71b83568f8]
+[mba-c4:145233] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7f71b8e807d5]
+[mba-c4:145233] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7f71b8e7e746]
+[mba-c4:145233] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7f71b8e7e773]
+[mba-c4:145233] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7f71b8e7e993]
+[mba-c4:145233] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7f71b8e7ef2d]
+[mba-c4:145233] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7f71b8e7efc9]
+[mba-c4:145233] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c4:145233] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f71b83413d5]
+[mba-c4:145233] [11] ./mpi_matmul[0x4088f9]
+[mba-c4:145233] *** End of error message ***
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c4:145234] *** Process received signal ***
+[mba-c4:145234] Signal: Aborted (6)
+[mba-c4:145234] Signal code:  (-6)
+[mba-c4:145234] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f44bedb1680]
+[mba-c4:145234] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7f44bea0b207]
+[mba-c4:145234] [ 2] /lib64/libc.so.6(abort+0x148)[0x7f44bea0c8f8]
+[mba-c4:145234] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7f44bf5367d5]
+[mba-c4:145234] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7f44bf534746]
+[mba-c4:145234] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7f44bf534773]
+[mba-c4:145234] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7f44bf534993]
+[mba-c4:145234] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7f44bf534f2d]
+[mba-c4:145234] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7f44bf534fc9]
+[mba-c4:145234] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c4:145234] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f44be9f73d5]
+[mba-c4:145234] [11] ./mpi_matmul[0x4088f9]
+[mba-c4:145234] *** End of error message ***
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c6:168797] *** Process received signal ***
+[mba-c6:168797] Signal: Aborted (6)
+[mba-c6:168797] Signal code:  (-6)
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c6:168795] *** Process received signal ***
+[mba-c6:168795] Signal: Aborted (6)
+[mba-c6:168795] Signal code:  (-6)
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c6:168796] *** Process received signal ***
+[mba-c6:168796] Signal: Aborted (6)
+[mba-c6:168796] Signal code:  (-6)
+[mba-c6:168796] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7ff33e09f680]
+[mba-c6:168796] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7ff33dcf9207]
+[mba-c6:168796] [ 2] terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c5:23947] *** Process received signal ***
+[mba-c5:23947] Signal: Aborted (6)
+[mba-c5:23947] Signal code:  (-6)
+[mba-c5:23947] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f1c5efd5680]
+[mba-c5:23947] [ 1] terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c5:23948] *** Process received signal ***
+[mba-c5:23948] Signal: Aborted (6)
+[mba-c5:23948] Signal code:  (-6)
+[mba-c5:23948] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f9280582680]
+[mba-c5:23948] [ 1] terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c5:23949] *** Process received signal ***
+[mba-c5:23949] Signal: Aborted (6)
+[mba-c5:23949] Signal code:  (-6)
+[mba-c6:168795] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f89670d0680]
+[mba-c6:168795] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7f8966d2a207]
+[mba-c6:168795] [ 2] /lib64/libc.so.6(abort+0x148)[0x7f8966d2b8f8]
+[mba-c6:168795] [ 3] /lib64/libc.so.6(gsignal+0x37)[0x7f1c5ec2f207]
+[mba-c5:23947] [ 2] /lib64/libc.so.6(abort+0x148)[0x7f1c5ec308f8]
+[mba-c5:23947] [ 3] /lib64/libc.so.6(abort+0x148)[0x7ff33dcfa8f8]
+[mba-c6:168796] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7ff33e8247d5]
+[mba-c6:168796] [ 4] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7f89678557d5]
+[mba-c6:168795] [ 4] /lib64/libc.so.6(gsignal+0x37)[0x7f92801dc207]
+[mba-c5:23948] [ 2] /lib64/libc.so.6(abort+0x148)[0x7f92801dd8f8]
+[mba-c5:23948] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7f1c5f75a7d5]
+[mba-c5:23947] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7f1c5f758746]
+/lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7f9280d077d5]
+[mba-c5:23948] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7f9280d05746]
+[mba-c5:23947] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7f1c5f758773]
+[mba-c5:23947] [ 6] /lib64/libstdc++.so.6(+0x5e746)[0x7ff33e822746]
+[mba-c6:168796] [ 5] [mba-c5:23948] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7f9280d05773]
+[mba-c5:23948] [ 6] /lib64/libstdc++.so.6(+0x5e746)[0x7f8967853746]
+[mba-c6:168795] [ 5] /lib64/libstdc++.so.6(+0x5e993)[0x7f1c5f758993]
+[mba-c5:23947] [ 7] /lib64/libstdc++.so.6(+0x5e773)[0x7f8967853773]
+[mba-c6:168795] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7f9280d05993]
+[mba-c5:23948] [ 7] /lib64/libstdc++.so.6(+0x5e773)[0x7ff33e822773]
+[mba-c6:168796] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7ff33e822993]
+[mba-c6:168796] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7f1c5f758f2d]
+[mba-c5:23947] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7f1c5f758fc9]
+/lib64/libstdc++.so.6(+0x5e993)[0x7f8967853993]
+[mba-c6:168795] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7f8967853f2d]
+[mba-c6:168795] [ 8] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7f9280d05f2d]
+[mba-c5:23948] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7f9280d05fc9]
+[mba-c5:23948] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c5:23948] [10] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7ff33e822f2d]
+[mba-c6:168796] [ 8] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f92801c83d5]
+[mba-c5:23948] [11] ./mpi_matmul[0x4088f9]
+[mba-c5:23948] *** End of error message ***
+/lib64/libstdc++.so.6(_Znam+0x9)[0x7f8967853fc9]
+[mba-c6:168795] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c6:168795] [10] [mba-c5:23947] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c5:23947] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f1c5ec1b3d5]
+[mba-c5:23947] [11] ./mpi_matmul[0x4088f9]
+[mba-c5:23947] *** End of error message ***
+/lib64/libstdc++.so.6(_Znam+0x9)[0x7ff33e822fc9]
+[mba-c6:168796] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c6:168796] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7ff33dce53d5]
+[mba-c6:168796] [11] [mba-c5:23949] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fcaa25b2680]
+[mba-c5:23949] [ 1] ./mpi_matmul[0x4088f9]
+[mba-c6:168796] *** End of error message ***
+/lib64/libc.so.6(gsignal+0x37)[0x7fcaa220c207]
+[mba-c5:23949] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f8966d163d5]
+[mba-c6:168795] [11] ./mpi_matmul[0x4088f9]
+[mba-c6:168795] *** End of error message ***
+/lib64/libc.so.6(abort+0x148)[0x7fcaa220d8f8]
+[mba-c5:23949] [ 3] [mba-c6:168797] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f5a6efd4680]
+[mba-c6:168797] [ 1] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7fcaa2d377d5]
+[mba-c5:23949] [ 4] /lib64/libc.so.6(gsignal+0x37)[0x7f5a6ec2e207]
+[mba-c6:168797] [ 2] /lib64/libstdc++.so.6(+0x5e746)[0x7fcaa2d35746]
+[mba-c5:23949] [ 5] /lib64/libc.so.6(abort+0x148)[0x7f5a6ec2f8f8]
+[mba-c6:168797] [ 3] /lib64/libstdc++.so.6(+0x5e773)[0x7fcaa2d35773]
+[mba-c5:23949] [ 6] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7f5a6f7597d5]
+[mba-c6:168797] [ 4] /lib64/libstdc++.so.6(+0x5e993)[0x7fcaa2d35993]
+[mba-c5:23949] [ 7] /lib64/libstdc++.so.6(+0x5e746)[0x7f5a6f757746]
+[mba-c6:168797] [ 5] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7fcaa2d35f2d]
+[mba-c5:23949] [ 8] /lib64/libstdc++.so.6(+0x5e773)[0x7f5a6f757773]
+[mba-c6:168797] [ 6] /lib64/libstdc++.so.6(_Znam+0x9)[0x7fcaa2d35fc9]
+[mba-c5:23949] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c5:23949] [10] /lib64/libstdc++.so.6(+0x5e993)[0x7f5a6f757993]
+[mba-c6:168797] [ 7] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fcaa21f83d5]
+[mba-c5:23949] [11] ./mpi_matmul[0x4088f9]
+[mba-c5:23949] *** End of error message ***
+/lib64/libstdc++.so.6(_Znwm+0x7d)[0x7f5a6f757f2d]
+[mba-c6:168797] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7f5a6f757fc9]
+[mba-c6:168797] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c6:168797] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f5a6ec1a3d5]
+[mba-c6:168797] [11] ./mpi_matmul[0x4088f9]
+[mba-c6:168797] *** End of error message ***

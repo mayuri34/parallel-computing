@@ -1,0 +1,72 @@
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c2:22512] *** Process received signal ***
+[mba-c2:22512] Signal: Aborted (6)
+[mba-c2:22512] Signal code:  (-6)
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c2:22513] *** Process received signal ***
+[mba-c2:22513] Signal: Aborted (6)
+[mba-c2:22513] Signal code:  (-6)
+[mba-c2:22513] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f586b08f680]
+[mba-c2:22513] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7f586ace9207]
+[mba-c2:22513] [ 2] [mba-c2:22512] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fcca34be680]
+[mba-c2:22512] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7fcca3118207]
+[mba-c2:22512] [ 2] /lib64/libc.so.6(abort+0x148)[0x7fcca31198f8]
+[mba-c2:22512] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7fcca3c437d5]
+[mba-c2:22512] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7fcca3c41746]
+[mba-c2:22512] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7fcca3c41773]
+[mba-c2:22512] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7fcca3c41993]
+[mba-c2:22512] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7fcca3c41f2d]
+[mba-c2:22512] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7fcca3c41fc9]
+[mba-c2:22512] [ 9] ./mpi_matmul[0x408ef2]
+/lib64/libc.so.6(abort+0x148)[0x7f586acea8f8]
+[mba-c2:22513] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7f586b8147d5]
+[mba-c2:22513] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7f586b812746]
+[mba-c2:22513] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7f586b812773]
+[mba-c2:22513] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7f586b812993]
+[mba-c2:22513] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7f586b812f2d]
+[mba-c2:22513] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7f586b812fc9]
+[mba-c2:22513] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c2:22513] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f586acd53d5]
+[mba-c2:22513] [11] ./mpi_matmul[0x4088f9]
+[mba-c2:22513] *** End of error message ***
+[mba-c2:22512] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fcca31043d5]
+[mba-c2:22512] [11] ./mpi_matmul[0x4088f9]
+[mba-c2:22512] *** End of error message ***
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c3:18432] *** Process received signal ***
+[mba-c3:18432] Signal: Aborted (6)
+[mba-c3:18432] Signal code:  (-6)
+[mba-c3:18432] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7ffae63d8680]
+[mba-c3:18432] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7ffae6032207]
+[mba-c3:18432] [ 2] /lib64/libc.so.6(abort+0x148)[0x7ffae60338f8]
+[mba-c3:18432] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7ffae6b5d7d5]
+[mba-c3:18432] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7ffae6b5b746]
+[mba-c3:18432] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7ffae6b5b773]
+[mba-c3:18432] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7ffae6b5b993]
+[mba-c3:18432] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7ffae6b5bf2d]
+[mba-c3:18432] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7ffae6b5bfc9]
+[mba-c3:18432] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c3:18432] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffae601e3d5]
+[mba-c3:18432] [11] ./mpi_matmul[0x4088f9]
+[mba-c3:18432] *** End of error message ***
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+[mba-c3:18433] *** Process received signal ***
+[mba-c3:18433] Signal: Aborted (6)
+[mba-c3:18433] Signal code:  (-6)
+[mba-c3:18433] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f01f5150680]
+[mba-c3:18433] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x7f01f4daa207]
+[mba-c3:18433] [ 2] /lib64/libc.so.6(abort+0x148)[0x7f01f4dab8f8]
+[mba-c3:18433] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x7f01f58d57d5]
+[mba-c3:18433] [ 4] /lib64/libstdc++.so.6(+0x5e746)[0x7f01f58d3746]
+[mba-c3:18433] [ 5] /lib64/libstdc++.so.6(+0x5e773)[0x7f01f58d3773]
+[mba-c3:18433] [ 6] /lib64/libstdc++.so.6(+0x5e993)[0x7f01f58d3993]
+[mba-c3:18433] [ 7] /lib64/libstdc++.so.6(_Znwm+0x7d)[0x7f01f58d3f2d]
+[mba-c3:18433] [ 8] /lib64/libstdc++.so.6(_Znam+0x9)[0x7f01f58d3fc9]
+[mba-c3:18433] [ 9] ./mpi_matmul[0x408ef2]
+[mba-c3:18433] [10] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f01f4d963d5]
+[mba-c3:18433] [11] ./mpi_matmul[0x4088f9]
+[mba-c3:18433] *** End of error message ***

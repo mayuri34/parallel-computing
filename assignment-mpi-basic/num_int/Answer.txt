@@ -1,0 +1,3 @@
+Do you observe speedup higher than can be achieved on a single machine?
+
+Yes speedup is higher than what is achieved on a single machine, which can be observed from the plots.

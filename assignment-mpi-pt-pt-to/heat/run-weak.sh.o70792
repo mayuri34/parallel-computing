@@ -1,0 +1,3 @@
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 75836 on node mba-c2 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 123719 on node mba-c6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 123856 on node mba-c6 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

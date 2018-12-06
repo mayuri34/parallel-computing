@@ -1,0 +1,207 @@
+[mba-c2:22742] *** Process received signal ***
+[mba-c2:22742] Signal: Segmentation fault (11)
+[mba-c2:22742] Signal code: Address not mapped (1)
+[mba-c2:22742] Failing at address: 0x7f52e4158d10
+[mba-c2:22744] *** Process received signal ***
+[mba-c2:22744] Signal: Segmentation fault (11)
+[mba-c2:22744] Signal code: Address not mapped (1)
+[mba-c2:22744] Failing at address: 0x7f2d852b0310
+[mba-c2:22746] *** Process received signal ***
+[mba-c2:22746] Signal: Segmentation fault (11)
+[mba-c2:22746] Signal code: Address not mapped (1)
+[mba-c2:22746] Failing at address: 0x7fa864e68f10
+[mba-c2:22742] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f52c239b680]
+[mba-c2:22742] [ 1] ./mpi_matmul[0x408fae]
+[mba-c2:22742] [ 2] [mba-c2:22744] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f2d31f75680]
+[mba-c2:22744] [ 1] ./mpi_matmul[0x408fae]
+[mba-c2:22744] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f52c1fe13d5]
+[mba-c2:22742] [ 3] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f2d31bbb3d5]
+[mba-c2:22744] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c2:22744] *** End of error message ***
+./mpi_matmul[0x4088f9]
+[mba-c2:22742] *** End of error message ***
+[mba-c6:168857] *** Process received signal ***
+[mba-c2:22746] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fa7e0470680]
+[mba-c2:22746] [ 1] ./mpi_matmul[0x408fae]
+[mba-c2:22746] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fa7e00b63d5]
+[mba-c2:22746] [ 3] [mba-c6:168851] *** Process received signal ***
+[mba-c6:168851] Signal: Segmentation fault (11)
+[mba-c6:168851] Signal code: Address not mapped (1)
+[mba-c6:168851] Failing at address: 0x7f0fa96ca010
+./mpi_matmul[0x4088f9]
+[mba-c2:22746] *** End of error message ***
+[mba-c5:24074] *** Process received signal ***
+[mba-c5:24074] Signal: Segmentation fault (11)
+[mba-c5:24074] Signal code: Address not mapped (1)
+[mba-c5:24074] Failing at address: 0x7fa6e4ffe410
+[mba-c3:18545] *** Process received signal ***
+[mba-c3:18545] Signal: Segmentation fault (11)
+[mba-c3:18545] Signal code: Address not mapped (1)
+[mba-c3:18545] Failing at address: 0x7f44e37b2210
+[mba-c3:18545] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f43ca80e680]
+[mba-c3:18545] [ 1] ./mpi_matmul[0x408fae]
+[mba-c3:18545] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f43ca4543d5]
+[mba-c3:18545] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c3:18545] *** End of error message ***
+[mba-c5:24068] *** Process received signal ***
+[mba-c5:24068] Signal: Segmentation fault (11)
+[mba-c5:24068] Signal code: Address not mapped (1)
+[mba-c5:24068] Failing at address: 0x7fe1f9db6010
+[mba-c5:24068] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fdf555bb680]
+[mba-c5:24068] [ 1] [mba-c3:18547] *** Process received signal ***
+[mba-c3:18547] Signal: Segmentation fault (11)
+[mba-c3:18547] Signal code: Address not mapped (1)
+[mba-c3:18547] Failing at address: 0x7f02d386ae10
+[mba-c3:18547] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f01891d7680]
+[mba-c3:18547] [ 1] ./mpi_matmul[0x408fae]
+[mba-c3:18547] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f0188e1d3d5]
+[mba-c3:18547] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c3:18547] *** End of error message ***
+[mba-c5:24072] *** Process received signal ***
+[mba-c5:24072] Signal: Segmentation fault (11)
+[mba-c5:24072] Signal code: Address not mapped (1)
+[mba-c5:24072] Failing at address: 0x7f32638a5e10
+[mba-c5:24072] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f2f2abbd680]
+[mba-c5:24072] [ 1] ./mpi_matmul[0x408fae]
+[mba-c5:24072] [ 2] [mba-c6:168852] *** Process received signal ***
+[mba-c6:168852] Signal: Segmentation fault (11)
+[mba-c6:168852] Signal code: Address not mapped (1)
+[mba-c6:168852] Failing at address: 0x7fa58c195c10
+[mba-c3:18548] *** Process received signal ***
+[mba-c3:18548] Signal: Segmentation fault (11)
+[mba-c3:18548] Signal code: Address not mapped (1)
+[mba-c3:18548] Failing at address: 0x7fbbb4b2df10
+[mba-c3:18548] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fba38c38680]
+[mba-c3:18548] [ 1] ./mpi_matmul[0x408fae]
+[mba-c3:18548] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fba3887e3d5]
+[mba-c3:18548] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c3:18548] *** End of error message ***
+[mba-c4:145350] *** Process received signal ***
+[mba-c4:145350] Signal: Segmentation fault (11)
+[mba-c4:145350] Signal code: Address not mapped (1)
+[mba-c4:145350] Failing at address: 0x7f419c45b010
+[mba-c4:145350] [ 0] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f2f2a8033d5]
+[mba-c5:24072] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c5:24072] *** End of error message ***
+[mba-c6:168855] *** Process received signal ***
+[mba-c6:168855] Signal: Segmentation fault (11)
+[mba-c6:168855] Signal code: Address not mapped (1)
+[mba-c6:168855] Failing at address: 0x7fc777e78310
+[mba-c3:18543] *** Process received signal ***
+[mba-c3:18543] Signal: Segmentation fault (11)
+[mba-c3:18543] Signal code: Address not mapped (1)
+[mba-c3:18543] Failing at address: 0x7f2d9428e010
+[mba-c3:18543] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f2cde0e0680]
+[mba-c3:18543] [ 1] ./mpi_matmul[0x408fae]
+[mba-c3:18543] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f2cddd263d5]
+[mba-c3:18543] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c3:18543] *** End of error message ***
+[mba-c4:145351] *** Process received signal ***
+[mba-c4:145351] Signal: Segmentation fault (11)
+[mba-c4:145351] Signal code: Address not mapped (1)
+[mba-c4:145351] Failing at address: 0x7f09b3689c10
+[mba-c4:145351] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f07d49b6680]
+[mba-c4:145351] [ 1] ./mpi_matmul[0x408fae]
+[mba-c4:145351] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f07d45fc3d5]
+[mba-c4:145351] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c4:145351] *** End of error message ***
+[mba-c5:24074] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fa37abf3680]
+[mba-c5:24074] [ 1] ./mpi_matmul[0x408fae]
+[mba-c5:24074] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fa37a8393d5]
+[mba-c5:24074] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c5:24074] *** End of error message ***
+[mba-c6:168855] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fc347d12680]
+[mba-c6:168855] [ 1] ./mpi_matmul[0x408fae]
+[mba-c6:168855] [ 2] [mba-c3:18544] *** Process received signal ***
+[mba-c3:18544] Signal: Segmentation fault (11)
+[mba-c3:18544] Signal code: Address not mapped (1)
+[mba-c3:18544] Failing at address: 0x7f833a48d110
+[mba-c3:18544] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f8252c38680]
+[mba-c3:18544] [ 1] ./mpi_matmul[0x408fae]
+[mba-c3:18544] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f825287e3d5]
+[mba-c3:18544] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c3:18544] *** End of error message ***
+[mba-c4:145352] *** Process received signal ***
+[mba-c4:145352] Signal: Segmentation fault (11)
+[mba-c4:145352] Signal code: Address not mapped (1)
+[mba-c4:145352] Failing at address: 0x7fdfe5933210
+[mba-c4:145352] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fddd5507680]
+[mba-c4:145352] [ 1] ./mpi_matmul[0x408fae]
+[mba-c4:145352] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fddd514d3d5]
+[mba-c4:145352] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c4:145352] *** End of error message ***
+[mba-c5:24069] *** Process received signal ***
+[mba-c5:24069] Signal: Segmentation fault (11)
+[mba-c5:24069] Signal code: Address not mapped (1)
+[mba-c5:24069] Failing at address: 0x7fa9db781c10
+[mba-c6:168851] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f0c0dc38680]
+[mba-c6:168851] [ 1] ./mpi_matmul[0x408fae]
+[mba-c6:168851] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f0c0d87e3d5]
+[mba-c6:168851] [mba-c4:145354] *** Process received signal ***
+[mba-c4:145354] Signal: Segmentation fault (11)
+[mba-c4:145354] Signal code: Address not mapped (1)
+[mba-c4:145354] Failing at address: 0x7f472d37ee10
+[mba-c4:145354] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f44eb9a0680]
+[mba-c4:145354] [ 1] ./mpi_matmul[0x408fae]
+[mba-c4:145354] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f44eb5e63d5]
+[mba-c4:145354] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c4:145354] *** End of error message ***
+[mba-c5:24070] *** Process received signal ***
+[mba-c5:24070] Signal: Segmentation fault (11)
+[mba-c5:24070] Signal code: Address not mapped (1)
+[mba-c5:24070] Failing at address: 0x7f2a7a7da210
+[mba-c6:168853] *** Process received signal ***
+[mba-c6:168853] Signal: Segmentation fault (11)
+[mba-c6:168853] Signal code: Address not mapped (1)
+[mba-c6:168853] Failing at address: 0x7fcbbc46cd10
+[mba-c4:145356] *** Process received signal ***
+[mba-c4:145356] Signal: Segmentation fault (11)
+[mba-c4:145356] Signal code: Address not mapped (1)
+[mba-c4:145356] Failing at address: 0x7f2409bd7410
+[mba-c4:145356] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f2196af1680]
+[mba-c4:145356] [ 1] ./mpi_matmul[0x408fae]
+[mba-c4:145356] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f21967373d5]
+[mba-c4:145356] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c4:145356] *** End of error message ***
+[mba-c5:24069] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fa705950680]
+[mba-c5:24069] [ 1] ./mpi_matmul[0x408fae]
+[mba-c5:24069] [ 2] [mba-c6:168852] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fa1befc1680]
+[mba-c6:168852] [ 1] ./mpi_matmul[0x408fae]
+[mba-c6:168852] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fa1bec073d5]
+[mba-c6:168852] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c6:168852] *** End of error message ***
+/lib64/libpthread.so.0(+0xf680)[0x7f3feee53680]
+[mba-c4:145350] [ 1] ./mpi_matmul[0x408fae]
+[mba-c4:145350] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f3feea993d5]
+[mba-c4:145350] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c4:145350] *** End of error message ***
+[mba-c5:24070] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f277326e680]
+[mba-c5:24070] [ 1] ./mpi_matmul[0x408fae]
+[mba-c5:24070] [ 2] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c6:168851] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fa7055963d5]
+[mba-c5:24069] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c5:24069] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fc3479583d5]
+[mba-c6:168855] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c6:168855] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7f2772eb43d5]
+[mba-c5:24070] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c5:24070] *** End of error message ***
+[mba-c6:168857] Signal: Segmentation fault (11)
+[mba-c6:168857] Signal code: Address not mapped (1)
+[mba-c6:168857] Failing at address: 0x7f08e0c12410
+./mpi_matmul[0x408fae]
+[mba-c5:24068] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fdf552013d5]
+[mba-c5:24068] [ 3] [mba-c6:168853] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fc7bda5f680]
+[mba-c6:168853] [ 1] ./mpi_matmul[0x408fae]
+[mba-c6:168853] [ 2] ./mpi_matmul[0x4088f9]
+[mba-c5:24068] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fc7bd6a53d5]
+[mba-c6:168853] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c6:168853] *** End of error message ***
+[mba-c6:168857] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f047f586680]
+[mba-c6:168857] [ 1] ./mpi_matmul[0x408fae]
+[mba-c6:168857] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f047f1cc3d5]
+[mba-c6:168857] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c6:168857] *** End of error message ***

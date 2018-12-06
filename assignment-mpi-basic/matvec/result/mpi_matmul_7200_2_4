@@ -1,0 +1,101 @@
+[mba-c5:23969] *** Process received signal ***
+[mba-c5:23969] Signal: Segmentation fault (11)
+[mba-c5:23969] Signal code: Invalid permissions (2)
+[mba-c5:23969] Failing at address: 0x7f9e688d1930
+[mba-c5:23969] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f9e6ea9d680]
+[mba-c5:23969] [ 1] ./mpi_matmul[0x408fae]
+[mba-c5:23969] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f9e6e6e33d5]
+[mba-c5:23969] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c5:23969] *** End of error message ***
+[mba-c5:23970] *** Process received signal ***
+[mba-c5:23970] Signal: Segmentation fault (11)
+[mba-c5:23970] Signal code: Invalid permissions (2)
+[mba-c5:23970] Failing at address: 0x7fef6a42f650
+[mba-c5:23970] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fef6fa3f680]
+[mba-c5:23970] [ 1] ./mpi_matmul[0x408fae]
+[mba-c5:23970] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fef6f6853d5]
+[mba-c5:23970] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c5:23970] *** End of error message ***
+[mba-c5:23972] *** Process received signal ***
+[mba-c5:23972] Signal: Segmentation fault (11)
+[mba-c5:23972] Signal code: Invalid permissions (2)
+[mba-c5:23972] Failing at address: 0x7f296f1d58f0
+[mba-c5:23972] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f2973995680]
+[mba-c5:23972] [ 1] ./mpi_matmul[0x408fae]
+[mba-c5:23972] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f29735db3d5]
+[mba-c5:23972] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c5:23972] *** End of error message ***
+[mba-c5:23968] *** Process received signal ***
+[mba-c5:23968] Signal: Segmentation fault (11)
+[mba-c5:23968] Signal code: Invalid permissions (2)
+[mba-c5:23968] Failing at address: 0x7f9a14297f10
+[mba-c5:23968] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f9a1a7ab680]
+[mba-c5:23968] [ 1] ./mpi_matmul[0x408fae]
+[mba-c5:23968] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f9a1a3f13d5]
+[mba-c5:23968] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c5:23968] *** End of error message ***
+[mba-c4:145259] *** Process received signal ***
+[mba-c4:145259] Signal: Segmentation fault (11)
+[mba-c4:145259] Signal code: Invalid permissions (2)
+[mba-c4:145259] Failing at address: 0x7f684fbaa2f0
+[mba-c4:145259] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f68560bf680]
+[mba-c4:145259] [ 1] ./mpi_matmul[0x408fae]
+[mba-c4:145259] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f6855d053d5]
+[mba-c4:145259] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c4:145259] *** End of error message ***
+[mba-c4:145257] *** Process received signal ***
+[mba-c4:145257] Signal: Segmentation fault (11)
+[mba-c4:145257] Signal code: Invalid permissions (2)
+[mba-c4:145257] Failing at address: 0x7fce29b85000
+[mba-c3:18453] *** Process received signal ***
+[mba-c3:18453] Signal: Segmentation fault (11)
+[mba-c3:18453] Signal code: Address not mapped (1)
+[mba-c3:18453] Failing at address: 0x2007f58
+[mba-c3:18453] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f3f1f9a6680]
+[mba-c3:18453] [ 1] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/libopen-pal.so.13(opal_memory_ptmalloc2_int_malloc+0x675)[0x7f3f1f1143d5]
+[mba-c3:18453] [ 2] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/libopen-pal.so.13(opal_memory_ptmalloc2_malloc+0x99)[0x7f3f1f114c49]
+[mba-c3:18453] [ 3] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_btl_tcp.so(mca_btl_tcp_endpoint_send+0x11b)[0x7f3f1ae541ab]
+[mba-c3:18453] [ 4] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_send_request_start_prepare+0xd0)[0x7f3f1a617880]
+[mba-c3:18453] [ 5] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_isend+0x4cd)[0x7f3f1a60db1d]
+[mba-c3:18453] [ 6] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_bcast_intra_generic+0x432)[0x7f3f1a1ed812]
+[mba-c3:18453] [ 7] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_bcast_intra_binomial+0xb7)[0x7f3f1a1eddd7]
+[mba-c3:18453] [ 8] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_bcast_intra_dec_fixed+0xcc)[0x7f3f1a1e26bc]
+[mba-c3:18453] [ 9] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/libmpi.so.12(MPI_Bcast+0x130)[0x7f3f20429b40]
+[mba-c3:18453] [10] ./mpi_matmul[0x40907f]
+[mba-c3:18453] [11] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f3f1f5ec3d5]
+[mba-c3:18453] [12] ./mpi_matmul[0x4088f9]
+[mba-c3:18453] *** End of error message ***
+[mba-c4:145257] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fce3020c680]
+[mba-c4:145257] [ 1] ./mpi_matmul[0x408fae]
+[mba-c4:145257] [ 2] [mba-c3][[18017,1],5][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:618:mca_btl_tcp_endpoint_recv_blocking] recv(15, 0/8) failed: Connection reset by peer (104)
+[mba-c3.uncc.edu:18452] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7fce2fe523d5]
+[mba-c4:145257] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c4:145257] *** End of error message ***
+[mba-c4:145256] *** Process received signal ***
+[mba-c4:145256] Signal: Segmentation fault (11)
+[mba-c4:145256] Signal code: Invalid permissions (2)
+[mba-c4:145256] Failing at address: 0x7f697d940b30
+[mba-c4:145256] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f6983e52680]
+[mba-c4:145256] [ 1] ./mpi_matmul[0x408fae]
+[mba-c4:145256] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f6983a983d5]
+[mba-c4:145256] [ 3] ./mpi_matmul[0x4088f9]
+[mba-c4:145256] *** End of error message ***
+[mba-c4:145255] *** Process received signal ***
+[mba-c4:145255] Signal: Segmentation fault (11)
+[mba-c4:145255] Signal code: Address not mapped (1)
+[mba-c4:145255] Failing at address: 0x43790f2e58
+[mba-c4:145255] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f46886cd680]
+[mba-c4:145255] [ 1] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_btl_vader.so(mca_btl_vader_sendi+0x3b6)[0x7f46839499e6]
+[mba-c4:145255] [ 2] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_pml_ob1.so(+0x8202)[0x7f468330d202]
+[mba-c4:145255] [ 3] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_isend+0x3ee)[0x7f468330da3e]
+[mba-c4:145255] [ 4] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_bcast_intra_generic+0x432)[0x7f4682eed812]
+[mba-c4:145255] [ 5] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_bcast_intra_binomial+0xb7)[0x7f4682eeddd7]
+[mba-c4:145255] [ 6] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_bcast_intra_dec_fixed+0xcc)[0x7f4682ee26bc]
+[mba-c4:145255] [ 7] /apps/pkg/openmpi-1.10.0/rhel7_u2-x86_64/gnu/lib/libmpi.so.12(MPI_Bcast+0x130)[0x7f4689150b40]
+[mba-c4:145255] [ 8] ./mpi_matmul[0x40907f]
+[mba-c4:145255] [ 9] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f46883133d5]
+[mba-c4:145255] [10] ./mpi_matmul[0x4088f9]
+[mba-c4:145255] *** End of error message ***
+[mba-c3][[18017,1],7][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:818:mca_btl_tcp_endpoint_complete_connect] connect() to 192.168.150.4 failed: Connection refused (111)
+[mba-c3][[18017,1],7][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:818:mca_btl_tcp_endpoint_complete_connect] connect() to 192.168.150.4 failed: Connection refused (111)
